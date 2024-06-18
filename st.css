@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 80%;
+    margin: 20px auto;
+    background: #d09b9b;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.about-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image .img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.intro {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 16px;
+    color: #666;
+}
+
+.skill-section, .projects-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eaeaea;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 14px;
+    color: #555;
+}
